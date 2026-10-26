@@ -1,0 +1,6 @@
+{
+  "name": "Gain Grub | Luxury Diet Foods & Performance Nutrition",
+  "description": "Bespoke personalized meal plans, clinical nutrition tracking, automated grocery builder, and gourmet diet food delivery in India.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
