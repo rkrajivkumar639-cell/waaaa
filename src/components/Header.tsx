@@ -44,7 +44,7 @@ export const Header: React.FC<HeaderProps> = ({
         >
           <div className="relative w-11 h-11 rounded-lg overflow-hidden border border-white/15 bg-black/60 flex items-center justify-center p-0.5 group-hover:border-red-500/60 transition-colors">
             <img 
-              src="/assets/aistudio/1_f115f14d.png" 
+              src={`${import.meta.env.BASE_URL}assets/aistudio/1_f115f14d.png`}
               alt="Gain Grub Logo" 
               className="w-full h-full object-contain filter drop-shadow"
             />

@@ -190,7 +190,7 @@ export const Hero3DVideo: React.FC<Hero3DVideoProps> = ({
             <div className="relative aspect-video w-full rounded-2xl md:rounded-3xl overflow-hidden bg-black">
               <video
                 ref={videoRef}
-                src="/assets/aistudio/gemini_generated_video_a59c4846_45cb7841.mp4"
+                src={`${import.meta.env.BASE_URL}assets/aistudio/gemini_generated_video_a59c4846_45cb7841.mp4`}
                 className="w-full h-full object-cover"
                 autoPlay
                 loop
